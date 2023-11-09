@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: othonluis/argocd-course-webapp
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: 5e2202e531e15aec49c2d305e2851d8964c1193d
 
